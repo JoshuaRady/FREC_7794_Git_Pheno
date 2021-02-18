@@ -13,8 +13,8 @@ library(lubridate)
 ## Main script for phenology analysis
 
 ## Load required functions
-if(file.exists("01_download_phenocam.R")){
-  source("01_download_phenocam.R")
+if(file.exists("01.download.phenocam.R")){
+  source("01.download.phenocam.R")
 }
 if(file.exists("02_plot_phenocam.R")){
   source("02_plot_phenocam.R")
